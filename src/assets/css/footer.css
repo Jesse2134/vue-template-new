@@ -1,0 +1,42 @@
+
+.footer {
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #eee;
+}
+
+.footer small {
+  color: #999;
+  font-size: 12px;
+}
+
+.footer small a {
+  color: #888;
+  text-decoration: none;
+}
+
+.footer small a:hover {
+  color: #777;
+}
+
+.footer a.logo-meishu {
+  display: inline-block;
+  width: 120px;
+  height: 14px;
+  font-size: 0;
+  vertical-align: middle;
+  background: url(./../../assets/images/logo-meishutech.svg) no-repeat;
+  background-size: contain;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.footer a.logo:hover {
+  filter: alpha(opacity=100);
+  -moz-opacity: 1;
+  opacity: 1;
+}

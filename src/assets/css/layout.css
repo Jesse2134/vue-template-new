@@ -1,0 +1,109 @@
+.el-loading-spinner .el-icon-loading{
+  font-size: 24px;
+}
+
+/* layout */
+
+.el-container {
+  height: 100%;
+}
+
+.header {
+  background-color: #373d41;
+  line-height: 70px;
+}
+
+.header .logo {
+  float: left;
+  width: 300px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.header .logo img {
+  float: left;
+  width: auto;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.header .logo small {
+  float: left;
+  margin-left: 10px;
+  padding: 0 6px;
+  color: #fff;
+  font-size: 15px;
+  background-color: #03ccdc;
+  border-radius: 8px 8px 8px 0;
+}
+
+.user-info {
+  float: right;
+  color: #fff;
+  line-height: 60px;
+  margin-left: 20px;
+}
+
+.user-info .el-dropdown-link {
+  cursor: pointer;
+}
+
+.aside {
+  background-color: #333743;
+  width: auto !important;
+  height: 100%;
+}
+
+.aside .el-menu {
+  border: none;
+  background-color: transparent;
+}
+
+.sub-menu:not(.el-menu--collapse) {
+  width: 200px;
+  min-height: 400px;
+}
+
+.el-menu--collapse {
+  width: 50px;
+}
+
+.el-menu--collapse .el-icon-arrow-right,
+.el-menu--collapse .outer-title {
+  display: none;
+}
+
+.collapse-bar {
+  cursor: pointer;
+  height: 35px;
+  padding: 0 15px;
+  line-height: 35px;
+  background-color: #4a5063;
+  outline: none;
+  text-align: right;
+}
+
+.collapse-bar.retract i {
+  transform: rotateZ(90deg);
+  transition: all .2s;
+}
+
+.collapse-bar i {
+  color: #fff;
+  width: 14px;
+  text-align: center;
+  transition: all .2s;
+}
+
+.breadcrumb {
+  height: auto !important;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.el-main {
+  background-color: #fafafa;
+}
+
